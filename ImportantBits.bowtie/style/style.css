@@ -1,0 +1,55 @@
+body {
+	margin: 0;
+	background: transparent;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 11px;
+	color: #fff;
+	text-shadow: 0 1px 0 #000;
+	-webkit-font-smoothing: antialiased;
+}
+
+#content {
+	position: relative;
+	height: 77px;
+}
+
+#artwork {
+	position: absolute;
+	bottom: 5px;
+	left: 5px;
+	z-index: 15;
+}
+
+#art {
+	display: block;
+	margin: 0;
+	border-radius: 3px;
+	box-shadow: 0 0 0 1px rgba(0,0,0,.45), 0 7px 5px -7px #000;
+}
+
+#text {
+	position: absolute;
+	z-index: 10;
+	bottom: 0;
+	left: 0;
+	padding: 8px 8px 8px 82px;
+	height: 26px;
+	background: rgba(0,0,0,.5);
+	border-radius: 0 10px 0 0;
+}
+
+#title {
+	overflow: hidden;
+	max-width: 215px;
+	font-weight: bold;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+#artist {
+	opacity: 0.8;
+	overflow: hidden;
+	max-width: 215px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}

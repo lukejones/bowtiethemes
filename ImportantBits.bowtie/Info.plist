@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>BTThemeName</key>
+			<string>ImportantBits</string>
+		<key>BTThemeIdentifier</key>
+			<string>com.ImportantBits.test</string>
+		<key>BTThemeVersion</key>
+			<string>1.0</string>
+		<key>BTThemePreviewImage</key>
+			<string>img/preview.png</string>
+		<key>BTThemeArtist</key>
+			<string>Luke Jones</string>
+		<key>BTThemeArtistUrl</key>
+			<string>http://www.lukejones.me/</string>
+		<key>BTMainFile</key>
+			<string>index.html</string>
+		<key>BTWindowWidth</key>
+			<integer>300</integer>
+		<key>BTWindowHeight</key>
+			<integer>77</integer>
+		
+		<key>BTTrackFunction</key>
+			<string>trackUpdate</string>
+		<key>BTArtworkWidth</key>
+			<integer>70</integer>
+		<key>BTArtworkHeight</key>
+			<integer>70</integer>
+		<key>BTArtworkFunction</key>
+			<string>artworkUpdate</string>
+	</dict>
+</plist>
