@@ -1,0 +1,83 @@
+body {
+	margin: 0;
+	padding: 10px;
+	background: #222;
+	font-family: Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	color: #111;
+}
+
+#content {
+	overflow: hidden;
+	padding: 3px;
+	max-width: 241px;
+	background: rgba(255,255,255,0.5);
+	border-radius: 4px;
+}
+
+#artwork {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	margin: 0 5px 0 0;
+	width: 70px;
+	height: 70px;
+	border: 1px solid #000;
+	border-radius: 3px;
+	box-shadow: 0 3px 2px -3px #000;
+}
+
+#artwork #highlight {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	width: 70px;
+	height: 1px;
+	background: rgba(255,255,255,0.1);
+}
+
+#artwork img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 5;
+}
+
+#text {
+	float: left;
+	padding: 5px 5px 5px 0;
+	overflow: hidden;
+	max-width: 159px
+}
+
+#text #title {
+	overflow: hidden;
+	max-width: 159px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#text #artist {
+	overflow: hidden;
+	margin: 3px 0;
+	max-width: 159px;
+	opacity: 0.8;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-size: 12px;
+}
+
+#text #album {
+	overflow: hidden;
+	margin: 0;
+	max-width: 159px;
+	white-space: nowrap;
+	opacity: 0.65;
+	text-overflow: ellipsis;
+	font-size: 10px;
+	text-transform: uppercase;
+}

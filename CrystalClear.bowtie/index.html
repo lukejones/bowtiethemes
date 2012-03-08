@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8" />
+	<title>CrystalClear</title>
+	<link rel="stylesheet" href="style/main.css" />
+	<script>
+		function $(id) { return document.getElementById(id); }
+		function trackUpdate(track) {			
+			$('title').innerHTML = track.property('title');
+			$('artist').innerHTML = track.property('artist');
+			var totalLength = $('title').innerHTML.length + $('artist').innerHTML.length
+			if(totalLength >= 90) {
+				$('title').style.maxWidth = "210px";
+				$('artist').style.maxWidth = "210px";
+				$('album').style.maxWidth = "210px";	
+			} else {
+				$('title').style.maxWidth = "none";
+				$('artist').style.maxWidth = "none";
+				$('album').style.maxWidth = "none";
+			}
+		}
+		function artworkUpdate(artURL) {
+			if (artURL == "") {
+				$('art').src = "img/noartwork.png";
+			} else {
+				$('art').src = artURL;
+			}
+		}
+	</script>
+
+</head>
+<body>
+
+	<div id="content">
+		<div id="artwork">
+			<div id="highlight"></div>
+			<img id="art" src="img/noartwork.png" width="70" height="70" alt="No artwork" />
+		</div><!-- /#artwork -->
+		<div id="text">
+			<div id="title">Track title Track title Track title Track title Track title Track title Track title</div>
+			<div id="artist">Artist</div>
+			<div id="album">Album title</div>
+		</div><!-- /#text -->
+	</div><!-- /#content -->
+
+</body>
+</html>
