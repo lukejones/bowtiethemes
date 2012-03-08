@@ -3,56 +3,43 @@
 	<head>
 
 		<meta charset="utf-8" />
-		<title>Bowtie</title>
-		<link rel="stylesheet" type="text/css" href="style/style.css">	
-
+		<title>ImportantBits</title>
+		<link rel="stylesheet" type="text/css" href="style/style.css" />
 		<script>
 			function $(id) { return document.getElementById(id); }
-	
-			function trackUpdate(track) 
-			{
-				
+			function trackUpdate(track) {
 				$('title').innerHTML = track.property('title');
 				$('artist').innerHTML = track.property('artist');
-				
 				var totalLength = $('title').innerHTML.length + $('artist').innerHTML.length
-				
-				if(totalLength >= 90)
-				{
+				if(totalLength >= 90) {
 					$('title').style.maxWidth = "210px";
 					$('artist').style.maxWidth = "210px";		
-				}
-				else
-				{
+				} else {
 					$('title').style.maxWidth = "none";
 					$('artist').style.maxWidth = "none";
 				}
 			}
-			
-			function artworkUpdate(artURL)
-			{
-				if (artURL == "")
-				{
+			function artworkUpdate(artURL) {
+				if (artURL == "") {
 					$('art').src = "img/noartwork.png";
-				}
-				else
-				{
+				} else {
 					$('art').src = artURL;
 				}
 			}
 		</script>
+		
 	</head>
 	<body>
 		
 		<div id="content">
 
 			<div id="artwork">
-				<img id="art" src="img/noartwork.png" alt="Arwork">
+				<img id="art" src="img/noartwork.png" alt="Artwork">
 			</div><!-- /#artwork -->
 			
 			<div id="text">
-				<div id="title">Title Title Title Title Title Title Title Title Title Title</div>
-				<div id="artist">Artist Artist Artist Artist Artist Artist v Artist Artist Artist</div>
+				<div id="title">Track title</div>
+				<div id="artist">Artist</div>
 			</div><!-- /#artwork -->
 
 		</div><!-- /#content -->
