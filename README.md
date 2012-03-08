@@ -7,7 +7,7 @@ Themes
 -------------
 
 * ImportantBits v1.1 – [Download](https://github.com/downloads/lukejonesme/bowtiethemes/ImportantBits.bowtie.tar.gz)
-* CrystalClear v0.9 – Download currently in repo clone only.
+* Mini v1.0 – [Download](https://github.com/downloads/lukejonesme/bowtiethemes/Mini.bowtie.tar.gz)
 
 Installation
 -------------
