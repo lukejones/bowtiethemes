@@ -20,7 +20,7 @@ body {
 	margin: 0 2px 0 0;
 	width: 31px;
 	height: 31px;
-	border: 1px solid #000;
+	border: 1px solid rgba(0,0,0,0.3);
 	border-radius: 3px;
 }
 
@@ -39,6 +39,8 @@ body {
 	top: 0;
 	left: 0;
 	z-index: 5;
+	display: block;
+	border-radius: 3px;
 }
 
 #text {
