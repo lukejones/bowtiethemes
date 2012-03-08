@@ -3,6 +3,11 @@ Bowtie themes
 
 Themes I've created for the free and fantastic OS X application [Bowtie](http://www.bowtieapp.com/).
 
+Themes
+-------------
+
+* ImportantBits v1.1 – [Download](https://github.com/downloads/lukejonesme/bowtiethemes/ImportantBits.bowtie.tar.gz)
+
 Installation
 -------------
 
