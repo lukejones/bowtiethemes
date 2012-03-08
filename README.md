@@ -6,7 +6,7 @@ Themes I've created for the free and fantastic OS X application [Bowtie](http://
 Themes
 -------------
 
-* ImportantBits v1.1 – [Download](https://github.com/downloads/lukejonesme/bowtiethemes/ImportantBits.bowtie.tar.gz)
+* ImportantBits v1.2 – [Download](https://github.com/downloads/lukejonesme/bowtiethemes/ImportantBits.bowtie.tar.gz)
 * Mini v1.0 – [Download](https://github.com/downloads/lukejonesme/bowtiethemes/Mini.bowtie.tar.gz)
 
 Installation
