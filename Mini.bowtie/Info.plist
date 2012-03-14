@@ -7,7 +7,7 @@
 		<key>BTThemeIdentifier</key>
 			<string>com.Mini.test</string>
 		<key>BTThemeVersion</key>
-			<string>1.0</string>
+			<string>1.1</string>
 		<key>BTThemePreviewImage</key>
 			<string>img/preview.png</string>
 		<key>BTThemeArtist</key>
@@ -17,7 +17,7 @@
 		<key>BTMainFile</key>
 			<string>index.html</string>
 		<key>BTWindowWidth</key>
-			<integer>250</integer>
+			<integer>253</integer>
 		<key>BTWindowHeight</key>
 			<integer>33</integer>
 		
