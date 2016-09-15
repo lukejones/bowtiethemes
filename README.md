@@ -19,4 +19,4 @@ License
 
 I don't know anything about licensing, so I'll just write it how I would say it in real-life: you can do whatever the hell you want with this source code, as long as they adhere to any licensing restrictions that Bowtie imposes on it's theme developers.
 
-If you make any improvements, it'd be great if you could [send me a tweet](http://twitter.com/lukejonesme) or open a pull request to get your better version merged into the master branch.
+If you make any improvements, it'd be great if you could [send me a tweet](http://twitter.com/lukejones) or open a pull request to get your better version merged into the master branch.
